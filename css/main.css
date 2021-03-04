@@ -1,0 +1,29 @@
+.main{
+    width: 90%;
+
+    background-color: rgba(154, 154, 154, 0.1);
+    border-radius: 10px;
+    margin: 50px 5vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    margin: 3px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(222, 255, 132);
+    border-radius: 10px;
+    transition: all 0.2s ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Akaya Telivigala';
+    font-weight: 100;
+    color: sienna;
+}
+
+.cell:hover{
+    transform: scale(1.25);
+    background-color: seagreen;
+}
